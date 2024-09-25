@@ -68,7 +68,7 @@ jobs:
             - enhancement
             - auto-pr
           draft: false
-          allow_no_diff: false                                                                                                                                - name: Calculate version
+          allow_no_diff: false                                                                                                                     - name: Calculate version
                                                                                                                                           id: calculate-version
                                                                                                                                                     uses: bitshifted/git-auto-semver@v1
 
